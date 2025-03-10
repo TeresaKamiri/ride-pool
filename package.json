@@ -1,0 +1,52 @@
+{
+  "name": "ride-pool",
+  "version": "1.0.0",
+  "description": "This is a Node.js backend for a ride-pooling application. It provides APIs for user management, ride booking, vehicle management, and authentication.",
+  "main": "api.js",
+  "scripts": {
+    "start": "pm2 start api.js --name ride-pool",
+    "stop": "pm2 stop ride-pool",
+    "restart": "pm2 restart ride-pool",
+    "dev": "nodemon api.js",
+    "test": "jest --runInBand",
+    "runner": "node api.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Smart-Ryuga-Org/ride-pool.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Smart-Ryuga-Org/ride-pool/issues"
+  },
+  "homepage": "https://github.com/Smart-Ryuga-Org/ride-pool#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-rate-limit": "^7.0.0",
+    "helmet": "^7.0.0",
+    "jsonwebtoken": "^9.0.2",
+    "mysql2": "^3.2.0",
+    "node-cron": "^3.0.3",
+    "pm2": "^5.3.0",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.1",
+    "uuid": "^11.1.0",
+    "winston": "^3.8.2",
+    "yamljs": "^0.3.0"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "nodemon": "^3.0.0",
+    "supertest": "^7.0.0"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
