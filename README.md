@@ -34,12 +34,12 @@ This is a Node.js backend for a ride-pooling application, replacing a previous L
    npm install
 
    ```
-3. Edit the `.env` file with the following content:
+3. Edit the `.env` file with the revelvant content:
    ```sh
    DB_HOST=0.0.0.0   #your_database_host
    DB_NAME=ride_pool   #your_database_name
-   DB_USER=root    #your_database_user
-   DB_PASSWORD=   #your_database_password
+   DB_USER=username    #your_database_user
+   DB_PASSWORD=password  #your_database_password
    JWT_SECRET=a6b7b2661d83a172a8192dba55714578027a778642b558f5aaaafc67c649b5d6   #your_jwt_secret
    PORT=3000
    ```
@@ -51,14 +51,15 @@ This is a Node.js backend for a ride-pooling application, replacing a previous L
 
 4. Start the server:
    ```sh
-   npm run start
+   node api.js
    ```
    or
    ```sh
-   node api.js
+   npm run start
    ```
+   
 5. Access the api:
-   local 
+   locally
    ```
    http://localhost:3000
    ```
