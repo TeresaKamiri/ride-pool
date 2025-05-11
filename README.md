@@ -1,7 +1,7 @@
 # Ride-Pool Backend 
 
 ## Overview
-This is a Node.js backend for a ride-pooling application, replacing a previous Laravel-based system. It provides APIs for user management, ride booking, vehicle management, and authentication.
+This is a Node.js backend for a ride-pooling application. It provides APIs for user management, ride booking, vehicle management, and authentication.
 
 ## Features
 - **User Profile Management**: View and update user profiles.
